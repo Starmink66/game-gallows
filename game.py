@@ -26,7 +26,7 @@ def printMessage(text):
     print(text)
 
 def printCosole(nameFile):
-    file = open("gallows/"+nameFile, 'r')
+    file = open(nameFile, 'r')
     print(file.read())
 
 def checkCategory(choice):
